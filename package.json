@@ -1,0 +1,21 @@
+{
+  "name": "crawler",
+  "version": "1.0.0",
+  "description": "web crawler using NodeJS",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^0.20.0",
+    "cheerio": "^1.0.0-rc.3",
+    "crawler": "^1.2.2",
+    "fs": "0.0.1-security",
+    "htcrawl": "^1.0.1",
+    "puppeteer": "^5.2.1",
+    "request": "^2.88.2",
+    "url": "^0.11.0"
+  }
+}
