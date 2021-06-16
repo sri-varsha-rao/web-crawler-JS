@@ -1,8 +1,8 @@
 # web-crawler-JS
 A crawler is a program that starts with a url on the web (ex: http://python.org), fetches the web-page corresponding to that url, and parses all the links on that page into a repository of links. Next, it fetches the contents of any of the url from the repository just created, parses the links from this new content into the repository and continues this process for all links in the repository until stopped or after a given number of links are fetched.
 
-inputs : website link to scrap(as param in doCrawl()), LINKS_LIMIT- number of links to fetch
-output in .txt file - storing the #LINKS_LIMIT links with line separated
+input : website link to scrap(as param in doCrawl()), LINKS_LIMIT- number of links to fetch
+output : in .txt file - storing the #LINKS_LIMIT links with line separated
 
 Web crawler - BFS APPROACH- considering to fetch the number of total nodes = LINKS_LIMIT as input
 
