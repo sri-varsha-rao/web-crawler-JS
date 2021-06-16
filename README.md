@@ -7,9 +7,9 @@ output in .txt file - storing the #LINKS_LIMIT links with line separated
 Web crawler - BFS APPROACH- considering to fetch the number of total nodes = LINKS_LIMIT as input
 
 libraries used :
-  => axios : Promise based HTTP client for the browser and node.js
-  => cheerio : Cheerio parses markup and provides an API for traversing/manipulating the resulting data structure.
-  => fs : access and interact with file system
+  - axios : Promise based HTTP client for the browser and node.js
+  - cheerio : Cheerio parses markup and provides an API for traversing/manipulating the resulting data structure.
+  - fs : access and interact with file system
   
 Steps :
   - Extract HTML from website
